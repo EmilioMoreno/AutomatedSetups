@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ruby -e "$(curl -fsSL "https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew install wget
 brew install mtr
@@ -9,7 +9,7 @@ brew install nmap
 brew install lft
 brew install mc
 brew install wakeonlan
-
+brew install unarj
 
 
 brew install caskroom/cask/brew-cask
@@ -36,7 +36,7 @@ brew cask install --appdir="/Applications/" sdformatter
 brew cask install --appdir="/Applications/" appcleaner
 brew cask install --appdir="/Applications/" daisydisk
 brew cask install --appdir="/Applications/" github
-
+brew cask install --appdir="/Applications/" tunnelblick
 
 
 
