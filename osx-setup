@@ -16,7 +16,7 @@ brew install caskroom/cask/brew-cask
 brew cask install --appdir="/Applications/" dropbox
 brew cask install --appdir="/Applications/" vlc
 brew cask install --appdir="/Applications/" skype
-brew cask install --appdir="/Applications/“ google-chrome
+brew cask install --appdir="/Applications/" google-chrome
 brew cask install --appdir="/Applications/" the-unarchiver
 brew cask install --appdir="/Applications/" path-finder
 brew cask install --appdir="/Applications/" cakebrew
