@@ -36,6 +36,7 @@ brew cask install --appdir="/Applications/" sdformatter
 brew cask install --appdir="/Applications/" appcleaner
 brew cask install --appdir="/Applications/" daisydisk
 brew cask install --appdir="/Applications/" github
+brew cask install --appdir="/Applications/" cocktail
 
 
 
