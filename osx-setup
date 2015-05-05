@@ -9,6 +9,7 @@ brew install nmap
 brew install lft
 brew install mc
 brew install wakeonlan
+brew install ssh-copy-id
 
 
 
