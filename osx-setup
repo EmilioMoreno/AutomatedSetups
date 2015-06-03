@@ -11,6 +11,7 @@ brew install mc
 brew install wakeonlan
 brew install ssh-copy-id
 brew install unarj
+brew install mackup
 
 
 brew install caskroom/cask/brew-cask
@@ -40,5 +41,6 @@ brew cask install --appdir="/Applications/" github
 brew cask install --appdir="/Applications/" tunnelblick
 brew cask install --appdir="/Applications/" minitimer
 brew cask install --appdir="/Applications/" cocktail
+brew cask install java
 
 
