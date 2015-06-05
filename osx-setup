@@ -45,6 +45,7 @@ brew cask install --appdir="/Applications/" tunnelblick
 brew cask install --appdir="/Applications/" minitimer
 brew cask install --appdir="/Applications/" cocktail
 brew cask install --appdir="/Applications/" little-snitch
+brew cask install --appdir="/Applications/" bartender
 
 
 
