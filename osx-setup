@@ -12,13 +12,14 @@ brew install wakeonlan
 brew install ssh-copy-id
 brew install unarj
 brew install mackup
+brew cask install java
 
 
 brew install caskroom/cask/brew-cask
 brew cask install --appdir="/Applications/" dropbox
 brew cask install --appdir="/Applications/" vlc
 brew cask install --appdir="/Applications/" skype
-brew cask install --appdir="/Applications/" google-chrome
+brew cask install --appdir="/Applications/" google-chrome
 brew cask install --appdir="/Applications/" the-unarchiver
 brew cask install --appdir="/Applications/" path-finder
 brew cask install --appdir="/Applications/" cakebrew
@@ -41,6 +42,6 @@ brew cask install --appdir="/Applications/" github
 brew cask install --appdir="/Applications/" tunnelblick
 brew cask install --appdir="/Applications/" minitimer
 brew cask install --appdir="/Applications/" cocktail
-brew cask install java
+
 
 
