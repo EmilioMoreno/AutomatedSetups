@@ -47,6 +47,7 @@ brew cask install --appdir="/Applications/" cocktail
 brew cask install --appdir="/Applications/" little-snitch
 brew cask install --appdir="/Applications/" bartender
 brew cask install --appdir="/Applications/" filebot
+brew cask install --appdir="/Applications/" controlplane
 
 
 
