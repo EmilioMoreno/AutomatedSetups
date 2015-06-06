@@ -8,3 +8,4 @@ sudo wget http://goo.gl/rsel0F -O /etc/apt/sources.list.d/rpimonitor.list
 sudo apt-get update
 sudo apt-get install rpimonitor
 sudo /usr/share/rpimonitor/scripts/updatePackagesStatus.pl
+sudo apt-get install supervisor
