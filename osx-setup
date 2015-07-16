@@ -49,6 +49,7 @@ brew cask install --appdir="/Applications/" bartender
 brew cask install --appdir="/Applications/" filebot
 brew cask install --appdir="/Applications/" controlplane
 brew cask install --appdir="/Applications/" launchcontrol
+brew cask install --appdir="/Applications/" witgui
 
 
 
