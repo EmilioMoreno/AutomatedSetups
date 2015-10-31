@@ -50,6 +50,7 @@ applications=(
             path-finder
             sdformatter
             skype
+	    stay
             tableau
             the-unarchiver
             transmission-remote-gui
