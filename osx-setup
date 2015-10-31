@@ -24,38 +24,39 @@ echo "Installing Homebrew Cask.."
 brew install caskroom/cask/brew-cask
 
 applications=(
-            iterm2
-            dropbox
-            vlc
-            skype
-            google-chrome
-            the-unarchiver
-            path-finder
-            cakebrew
             1password
-            evernote
-            istat-menus
-            firefox
-            vmware-fusion
-            parallels-desktop
-            jdownloader
-            omnifocus
-            mediaelch
-            viscosity
-            crashplan
-            tableau
-            transmission-remote-gui
-            sdformatter
             appcleaner
-            daisydisk
-            github
-            tunnelblick
-            minitimer
-            cocktail
-            little-snitch
             bartender
-            filebot
+            cakebrew
+            cocktail
             controlplane
+            crashplan
+            daisydisk
+            dropbox
+            evernote
+            filebot
+            firefox
+            github
+            google-chrome
+            iterm2
+            istat-menus
+            jdownloader
+            launchcontrol
+            little-snitch
+            mediaelch
+            minitimer
+            omnifocus
+            parallels-desktop
+            path-finder
+            sdformatter
+            skype
+            tableau
+            the-unarchiver
+            transmission-remote-gui
+            tunnelblick
+            vlc
+            vmware-fusion
+            witgui
 )
 
 echo "Installing apps..."
