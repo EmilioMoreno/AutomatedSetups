@@ -1,53 +1,63 @@
 #!/bin/bash
 
+xcode-select --install
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install wget
-brew install mtr
-brew install aircrack-ng
-brew install nmap
-brew install lft
-brew install mc
-brew install wakeonlan
-brew install ssh-copy-id
-brew install unarj
-brew install mackup
-brew cask install java
+binaries=(
+	wget
+	mtr
+	aircrack-ng
+	nmap
+	lft
+	mc
+	wakeonlan
+	ssh-copy-id
+	unarj
+	mackup
+	java
+)
 
+echo "Installing binaries..."
+brew install ${binaries[@]}
 
+echo "Installing Homebrew Cask.."
 brew install caskroom/cask/brew-cask
-brew cask install --appdir="/Applications/" iterm2
-brew cask install --appdir="/Applications/" dropbox
-brew cask install --appdir="/Applications/" vlc
-brew cask install --appdir="/Applications/" skype
-brew cask install --appdir="/Applications/" google-chrome
-brew cask install --appdir="/Applications/" the-unarchiver
-brew cask install --appdir="/Applications/" path-finder
-brew cask install --appdir="/Applications/" cakebrew
-brew cask install --appdir="/Applications/" 1password
-brew cask install --appdir="/Applications/" evernote
-brew cask install --appdir="/Applications/" istat-menus
-brew cask install --appdir="/Applications/" firefox
-brew cask install --appdir="/Applications/" vmware-fusion
-brew cask install --appdir="/Applications/" parallels-desktop
-brew cask install --appdir="/Applications/" jdownloader
-brew cask install --appdir="/Applications/" omnifocus
-brew cask install --appdir="/Applications/" mediaelch
-brew cask install --appdir="/Applications/" viscosity
-brew cask install --appdir="/Applications/" crashplan
-brew cask install --appdir="/Applications/" tableau
-brew cask install --appdir="/Applications/" transmission-remote-gui
-brew cask install --appdir="/Applications/" sdformatter
-brew cask install --appdir="/Applications/" appcleaner
-brew cask install --appdir="/Applications/" daisydisk
-brew cask install --appdir="/Applications/" github
-brew cask install --appdir="/Applications/" tunnelblick
-brew cask install --appdir="/Applications/" minitimer
-brew cask install --appdir="/Applications/" cocktail
-brew cask install --appdir="/Applications/" little-snitch
-brew cask install --appdir="/Applications/" bartender
-brew cask install --appdir="/Applications/" filebot
-brew cask install --appdir="/Applications/" controlplane
 
+applications=(
+            iterm2
+            dropbox
+            vlc
+            skype
+            google-chrome
+            the-unarchiver
+            path-finder
+            cakebrew
+            1password
+            evernote
+            istat-menus
+            firefox
+            vmware-fusion
+            parallels-desktop
+            jdownloader
+            omnifocus
+            mediaelch
+            viscosity
+            crashplan
+            tableau
+            transmission-remote-gui
+            sdformatter
+            appcleaner
+            daisydisk
+            github
+            tunnelblick
+            minitimer
+            cocktail
+            little-snitch
+            bartender
+            filebot
+            controlplane
+)
 
+echo "Installing apps..."
+brew cask install --appdir="/Applications" ${apps[@]}
 
