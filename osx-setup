@@ -23,7 +23,7 @@ brew install ${binaries[@]}
 echo "Installing Homebrew Cask.."
 brew install caskroom/cask/brew-cask
 
-applications=(
+apps=(
             1password
             appcleaner
             bartender
@@ -32,6 +32,7 @@ applications=(
             controlplane
             crashplan
             daisydisk
+            disablemonitor
             dropbox
             evernote
             filebot
