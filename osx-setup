@@ -52,6 +52,7 @@ apps=(
             sdformatter
             skype
 	    stay
+	    ssh-copy-id
             tableau
             the-unarchiver
             transmission-remote-gui
