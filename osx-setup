@@ -47,8 +47,10 @@ apps=(
             mediaelch
             minitimer
             omnifocus
+            osxfuse
             parallels-desktop
             path-finder
+            rclone
             sdformatter
             skype
 	    stay
