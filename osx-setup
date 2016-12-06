@@ -30,7 +30,6 @@ apps=(
             cakebrew
             cocktail
             controlplane
-            crashplan
             daisydisk
             disablemonitor
             dropbox
@@ -48,7 +47,6 @@ apps=(
             minitimer
             omnifocus
             osxfuse
-            parallels-desktop
             path-finder
             rclone
             sdformatter
@@ -60,7 +58,6 @@ apps=(
             transmission-remote-gui
             tunnelblick
             vlc
-            vmware-fusion
             witgui
 )
 
