@@ -43,8 +43,10 @@ apps=(
             jdownloader
             launchcontrol
             little-snitch
+	    mackup
             mediaelch
-            minitimer
+	    minitimer
+	    moom
             omnifocus
             osxfuse
             path-finder
@@ -52,12 +54,14 @@ apps=(
             sdformatter
             skype
 	    stay
-	    ssh-copy-id
             tableau
             the-unarchiver
             transmission-remote-gui
             tunnelblick
+	    vagrant
+	    vagrant-manager
             vlc
+	    virtualbox
             witgui
 )
 
