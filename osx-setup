@@ -38,6 +38,7 @@ apps=(
             firefox
             github
             google-chrome
+	    google-drive
             iterm2
             istat-menus
             jdownloader
