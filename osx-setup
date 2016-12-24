@@ -35,6 +35,7 @@ apps=(
             evernote
             filebot
             firefox
+	    fullcontact
             github
             google-chrome
 	    google-drive
