@@ -24,6 +24,7 @@ brew install caskroom/cask/brew-cask
 
 apps=(
             1password
+	    airserver
             appcleaner
             bartender
             cakebrew
